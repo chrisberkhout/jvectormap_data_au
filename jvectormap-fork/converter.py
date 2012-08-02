@@ -106,8 +106,8 @@ class Converter:
           #buffer to fix selfcrosses
           shapelyGeometry = shapelyGeometry.buffer(0)
         shapelyGeometry = self.applyFilters(shapelyGeometry)
-        if shapelyGeometry:
-          name = feature.GetFieldAsString(self.country_name_index).decode(self.inputFileEncoding)
+        name = feature.GetFieldAsString(self.country_name_index).decode(self.inputFileEncoding)
+        if shapelyGeometry and (name in self.codes):
           code = self.codes[name]
           self.features[code] = {"geometry": shapelyGeometry, "name": name, "code": code}
       else:
