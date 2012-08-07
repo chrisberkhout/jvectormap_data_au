@@ -78,11 +78,11 @@ class Converter:
     layer.ResetReading()
 
     # load codes from external tsv file if present or geodata file otherwise
-    self.codes = {}
+    self.names = {}
     if self.codes_file:
       for line in codecs.open(self.codes_file, 'r', "utf-8"):
         row = map(lambda s: s.strip(), line.split('\t'))
-        self.codes[row[1]] = row[0]
+        self.names[row[0]] = row[1]
     else:
       nextCode = 0
       for feature in layer:
@@ -91,7 +91,7 @@ class Converter:
           code = '_'+str(nextCode)
           nextCode += 1
         name = feature.GetFieldAsString(self.country_name_index).decode(self.inputFileEncoding)
-        self.codes[name] = code
+        self.names[code] = name
       layer.ResetReading()
 
     # load features
@@ -106,9 +106,9 @@ class Converter:
           #buffer to fix selfcrosses
           shapelyGeometry = shapelyGeometry.buffer(0)
         shapelyGeometry = self.applyFilters(shapelyGeometry)
-        name = feature.GetFieldAsString(self.country_name_index).decode(self.inputFileEncoding)
-        if shapelyGeometry and (name in self.codes):
-          code = self.codes[name]
+        code = feature.GetFieldAsString(self.country_code_index).decode(self.inputFileEncoding)
+        if shapelyGeometry and (code in self.names.keys()):
+          name = self.names[code]
           self.features[code] = {"geometry": shapelyGeometry, "name": name, "code": code}
       else:
         raise Exception, "Wrong geomtry type: "+geometryType
