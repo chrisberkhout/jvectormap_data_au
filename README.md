@@ -1,7 +1,7 @@
 # Australian postcode and suburb data for jVectorMap
 
 This repository records the process and results of preparing Australian
-suburb and postcode data (particularly Melbourne and Sydney) for use with
+suburb and postcode data (particularly for Melbourne and Sydney) for use with
 [jVectorMap](http://jvectormap.com/).
 
 ## Get it
@@ -30,7 +30,7 @@ installed. I did this using [homebrew](https://github.com/mxcl/homebrew/)
 to get [GDAL](http://www.gdal.org/) support and the default Mac Python
 installation to install the required Python libraries and run the script.
 The sequence of commands are documented in a shell script, but I advise
-reading it and performing the steps manually, rather than just running it.
+reading it and performing the steps manually, rather than just running it:
 
     cat ./setup-python.sh
 
@@ -40,23 +40,28 @@ reading it and performing the steps manually, rather than just running it.
 
 ## Codes files
 
-The files under `data-codes/` are tab separated lists that map region codes
+The files under `data-codes/` are tab separated records that map region codes
 to names. When using a codes file, the jVectorMap converter script crashes
-if the codes file is missing the code of a geometry in the source data. I
-have forked the converter script (`jvectormap-fork/convertor.py`) so that if
-a codes file is specified, only the geometries listed in it will be output.
+if the codes file is missing the code of a geometry present in the source
+data. I have forked the converter script (as `jvectormap-fork/convertor.py`)
+so that if a codes file is specified, only the geometries listed in it will
+be output.
 
 ## Convertor fork
 
 In addition to allowing codes files to be used to select with geometries
 to include in the output, the fork fixes a bug which caused only one of
-identically named geometries to be output (because a Dictionary of them
-was being keyed on name (which is not unique) instead of code (which is).
+several identically named geometries to be output (because a Dictionary of
+them was being keyed on name (which is not unique) instead of code (which
+is).
+
+Most of the scripts use the fork rather than the original script from
+jVectorMap.
 
 ## Data
 
-The data from 2006, from the Australian Bureau of Statistics. The suburb
-areas are coded according to State Suburb (SSC) censis devisions. For more
+The data is from 2006, from the Australian Bureau of Statistics. The suburb
+areas are coded according to State Suburb (SSC) censis divisions. For more
 information on the data, follow the links in the `fetch-*` scripts.
 
 If you'd like to explore the source data (eg. for inspecting metadata or
