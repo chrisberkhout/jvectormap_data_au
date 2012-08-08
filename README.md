@@ -79,3 +79,13 @@ homebrew:
 [exporting metadata](http://osgeo-org.1560.n6.nabble.com/copying-selected-feature-information-td4978771.html#a4978778)
 is all pretty easy.
 
+## Output quality
+
+I've included scripts to generate national-level postcode and suburb data, but
+they don't look good. They could be improved, but data of this detail is
+probably not a good fit for jVectorMap.
+
+The map data files generated may be a little on the large side. This could be
+improved by tweaking the simplification parameters of the conversion script.
+
+
