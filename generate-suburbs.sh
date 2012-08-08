@@ -1,8 +1,9 @@
 #!/bin/bash -x
 set -e
 
+date
 time python \
-  jvectormap/converter/converter.py \
+  jvectormap-fork/converter.py \
   data-source/suburbs/SSC06aAUST_region.shp \
   data-generated/suburbs.js \
   --width 900 \
