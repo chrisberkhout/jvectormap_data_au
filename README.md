@@ -88,4 +88,9 @@ probably not a good fit for jVectorMap.
 The map data files generated may be a little on the large side. This could be
 improved by tweaking the simplification parameters of the conversion script.
 
+## Style and interactivity
+
+Take a look at `html/postcodes-mel-interactive.html` for an example of coloring
+based on data and handling clicks. Theres lots more that can be done with
+interactivity in jVectorMap.
 
