@@ -1,6 +1,7 @@
 #!/bin/bash -x
 set -e
 
+date
 time python \
   jvectormap-fork/converter.py \
   data-source/postcodes/POA06aAUST_region.shp \

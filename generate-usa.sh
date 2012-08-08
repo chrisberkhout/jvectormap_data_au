@@ -18,6 +18,7 @@ set -e
 #   --name us
 
 # The command I got working:
+date
 time python \
   jvectormap/converter/converter.py \
   data-source/usa/ne_10m_admin_1_states_provinces_shp.shp \
