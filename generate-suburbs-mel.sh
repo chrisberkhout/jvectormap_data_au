@@ -5,14 +5,14 @@ date
 time python \
   jvectormap-fork/converter.py \
   data-source/suburbs/SSC06aAUST_region.shp \
-  data-generated/suburbs-syd-greater.js \
+  data-generated/suburbs-mel.js \
   --width 900 \
-  --buffer_distance -20 \
+  --buffer_distance -40 \
   --simplify_tolerance 1 \
-  --name suburbs-syd-greater \
+  --name suburbs-mel \
   --country_name_index 1 \
   --country_code_index 1 \
-  --codes_file data-codes/suburbs-syd-greater.tsv \
+  --codes_file data-codes/suburbs-mel.tsv \
 
-open html/suburbs-syd-greater.html
+open html/suburbs-mel.html
 
