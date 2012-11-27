@@ -1,0 +1,312 @@
+20001	Abbotsford
+20002	Aberfeldie
+20005	Airport West
+20006	Albanvale
+20007	Albert Park
+20009	Albion
+20015	Alphington
+20016	Altona
+20017	Altona Meadows
+20018	Altona North
+20026	Ardeer
+20028	Armadale
+20033	Ascot Vale
+20035	Ashburton
+20036	Ashwood
+20037	Aspendale
+20038	Aspendale Gardens
+20040	Attwood
+20044	Avondale Heights
+20055	Balaclava
+20066	Balwyn
+20067	Balwyn North
+20071	Bangholme
+20092	Bayswater
+20093	Bayswater North
+20099	Beaumaris
+20110	Bellfield
+20120	Bentleigh
+20121	Bentleigh East
+20141	Black Rock
+20142	Blackburn
+20143	Blackburn North
+20144	Blackburn South
+20163	Boronia
+20168	Box Hill
+20169	Box Hill North
+20170	Box Hill South
+20171	Braeside
+20173	Braybrook
+20177	Briar Hill
+20181	Brighton
+20182	Brighton East
+20186	Broadmeadows
+20189	Brooklyn
+20193	Brunswick
+20194	Brunswick East
+20195	Brunswick West
+20204	Bulleen
+20212	Bundoora
+20217	Burnley
+20218	Burnside
+20219	Burnside Heights
+20222	Burwood
+20223	Burwood East
+20230	Cairnlea
+20231	Calder Park
+20237	Camberwell
+20239	Campbellfield
+20245	Canterbury
+20259	Carlton
+20260	Carlton North
+20261	Carnegie
+20263	Caroline Springs
+20273	Caulfield
+20274	Caulfield East
+20275	Caulfield North
+20276	Caulfield South
+20279	Chadstone
+20281	Chelsea
+20282	Chelsea Heights
+20283	Cheltenham
+20289	Chirnside Park
+20294	Clarinda
+20296	Clayton
+20297	Clayton South
+20300	Clifton Hill
+20311	Coburg
+20312	Coburg North
+20324	Collingwood
+20329	Coolaroo
+20343	Craigieburn
+20346	Cranbourne North
+20349	Cremorne
+20354	Croydon
+20355	Croydon Hills
+20356	Croydon North
+20357	Croydon South
+20364	Dallas
+20366	Dandenong
+20367	Dandenong North
+20368	Dandenong South
+20379	Deepdene
+20380	Deer Park
+20382	Delahey
+20386	Derrimut
+20393	Diamond Creek
+20399	Dingley Village
+20402	Docklands
+20405	Doncaster
+20406	Doncaster East
+20407	Donvale
+20411	Doveton
+20430	Eaglemont
+20434	East Melbourne
+20446	Edithvale
+20457	Elsternwick
+20458	Eltham
+20459	Eltham North
+20460	Elwood
+20463	Endeavour Hills
+20466	Epping
+20470	Essendon
+20471	Essendon Fields
+20472	Essendon North
+20473	Essendon West
+20474	Eumemmerring
+20480	Fairfield
+20484	Fawkner
+20486	Ferntree Gully
+20487	Ferny Creek
+20490	Fitzroy
+20491	Fitzroy North
+20492	Flemington
+20496	Footscray
+20497	Forest Hill
+20513	Gardenvale
+20530	Gladstone Park
+20533	Glen Huntly
+20534	Glen Iris
+20535	Glen Waverley
+20547	Glenroy
+20563	Gowanbrae
+20571	Greensborough
+20572	Greenvale
+20582	Hadfield
+20583	Hallam
+20589	Hampton
+20590	Hampton East
+20591	Hampton Park
+20603	Hawthorn
+20604	Hawthorn East
+20613	Heatherton
+20615	Heathmont
+20616	Heidelberg
+20617	Heidelberg Heights
+20618	Heidelberg West
+20627	Highett
+20632	Hillside
+20642	Hughesdale
+20645	Huntingdale
+20663	Ivanhoe
+20664	Ivanhoe East
+20665	Jacana
+20682	Kalorama
+20691	Kealba
+20693	Keilor
+20694	Keilor Downs
+20695	Keilor East
+20696	Keilor Lodge
+20697	Keilor North
+20698	Keilor Park
+20700	Kensington
+20703	Kew
+20704	Kew East
+20705	Keysborough
+20713	Kilsyth
+20714	Kilsyth South
+20719	Kings Park
+20720	Kingsbury
+20722	Kingsville
+20726	Knoxfield
+20734	Kooyong
+20762	Lalor
+20776	Laverton
+20777	Laverton North
+20790	Lilydale
+20810	Lower Plenty
+20814	Lynbrook
+20817	Lysterfield
+20818	Lysterfield South
+20822	Macleod
+20827	Maidstone
+20834	Malvern
+20835	Malvern East
+20847	Maribyrnong
+20860	McKinnon
+20864	Meadow Heights
+20867	Melbourne
+20868	Melbourne Airport
+20872	Mentone
+20880	Mernda
+20890	Middle Park
+20894	Mill Park
+20902	Mitcham
+20910	Mont Albert
+20911	Mont Albert North
+20912	Montmorency
+20913	Montrose
+20916	Moonee Ponds
+20917	Moorabbin
+20918	Moorabbin Airport
+20921	Mooroolbark
+20924	Mordialloc
+20936	Mount Dandenong
+20940	Mount Evelyn
+20949	Mount Waverley
+20955	Mulgrave
+20964	Murrumbeena
+20985	Narre Warren
+20987	Narre Warren North
+20988	Narre Warren South
+21011	Newport
+21018	Niddrie
+21022	Noble Park
+21023	Noble Park North
+21030	North Melbourne
+21033	North Warrandyte
+21035	Northcote
+21036	Notting Hill
+21040	Nunawading
+21046	Oak Park
+21048	Oakleigh
+21049	Oakleigh East
+21050	Oakleigh South
+21054	Olinda
+21057	Ormond
+21069	Park Orchards
+21070	Parkdale
+21071	Parkville
+21073	Pascoe Vale
+21074	Pascoe Vale South
+21091	Plenty
+21093	Point Cook
+21104	Port Melbourne
+21112	Prahran
+21113	Preston
+21114	Princes Hill
+21138	Research
+21139	Reservoir
+21142	Richmond
+21144	Ringwood
+21145	Ringwood East
+21146	Ringwood North
+21149	Ripponlea
+21161	Rosanna
+21169	Rowville
+21170	Roxburgh Park
+21184	Sandringham
+21189	Scoresby
+21192	Seabrook
+21194	Seaholme
+21199	Seddon
+21230	Somerton
+21235	South Kingsville
+21236	South Melbourne
+21237	South Morang
+21239	South Wharf
+21240	South Yarra
+21241	Southbank
+21242	Spotswood
+21246	Springvale
+21247	Springvale South
+21248	St Albans
+21253	St Helena
+21255	St Kilda
+21256	St Kilda East
+21257	St Kilda West
+21274	Strathmore
+21275	Strathmore Heights
+21282	Sunshine
+21283	Sunshine North
+21284	Sunshine West
+21286	Surrey Hills
+21292	Sydenham
+21319	Taylors Hill
+21320	Taylors Lakes
+21324	Templestowe
+21325	Templestowe Lower
+21328	The Basin
+21331	Thomastown
+21333	Thornbury
+21354	Toorak
+21359	Tottenham
+21367	Travancore
+21369	Tremont
+21374	Tullamarine
+21387	Upper Ferntree Gully
+21390	Upwey
+21394	Vermont
+21395	Vermont South
+21396	Viewbank
+21419	Wantirna
+21420	Wantirna South
+21428	Warrandyte
+21429	Warrandyte South
+21430	Warranwood
+21439	Waterways
+21440	Watsonia
+21441	Watsonia North
+21443	Wattle Glen
+21457	West Footscray
+21458	West Melbourne
+21460	Westmeadows
+21463	Wheelers Hill
+21473	Williams Landing
+21474	Williamstown
+21475	Williamstown North
+21484	Windsor
+21488	Wollert
+21490	Wonga Park
+21518	Yallambie
+21534	Yarraville
