@@ -97,6 +97,8 @@ class Converter:
     # load features
     for feature in layer:
       geometry = feature.GetGeometryRef()
+      if geometry is None:
+        continue
       geometryType = geometry.GetGeometryType()
 
       if geometryType == ogr.wkbPolygon or geometryType == ogr.wkbMultiPolygon:
