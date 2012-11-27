@@ -60,9 +60,10 @@ jVectorMap.
 
 ## Data
 
-The data is from 2006, from the Australian Bureau of Statistics. The suburb
-areas are coded according to State Suburb (SSC) censis divisions. For more
-information on the data, follow the links in the `fetch-*` scripts.
+The data is from 2006 (except where marked 2011), from the Australian 
+Bureau of Statistics. The suburb areas are coded according to State 
+Suburb (SSC) censis divisions. For more information on the data, follow
+the links in the `fetch-*` scripts.
 
 If you'd like to explore the source data (eg. for inspecting metadata or
 selecting a range of areas to include in a new codes file), I highly
